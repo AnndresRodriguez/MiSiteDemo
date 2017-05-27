@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Boogaloo|Gentium+Basic|Lato|Quando|Scada');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Lora|Merriweather');
+
+
+.navbar-inverse{ background-color: black; margin-bottom: 0;}
+.collapse { font-size: 1.3em; }
+.navbar-informacion__item:hover{ box-shadow: 0 .15em white; }
+
+.flexible{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+.header__imagen{
+
+    height: 100%;
+    background: url(../img/imagen-fondo-7.jpg);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+
+.header__imagen-perfilUser{
+    
+    width: 30rem;
+    height: 30rem;
+    border: .5em solid white;
+    margin-top: 3rem;
+}
+
+.header__informacion--nombre{ font-size: 4.5rem; }
+.header__informacion--descripcion{ font-size: 2.5rem; }
+
+.container-glyphicon{
+
+    width: 8em;
+    height: 4em;
+    text-align: center;
+    margin-bottom: 9rem;
+
+}
+
+.glyphicon{ 
+    
+    position: relative;
+    font-size: 3em;
+    animation: animate-icon 1s infinite;
+
+ }
+
+ @keyframes animate-icon{
+
+    0%{ padding-top: 0;}
+    50%{ padding-top: .3em; }
+    100%{ padding-top: 0; }
+}
+
+.section--title{
+
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 4rem;
+
+}
+
+.section__article--title{
+
+    font-size: 3rem;
+    margin-top: 2rem;
+
+}
+
+.seccion-informacion{ order: 1; }
+.seccion-tecnologias{ order: 3; }
+.seccion-estudios{ order: 2; }
+.footer {order: 4;}
+
+
+.seccion-informacion{
+
+    height: 40rem;
+    background: url(../img/bogota320.jpg);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+
+.container-tecnologias { flex-direction: row; justify-content: space-around; margin-bottom: 2rem; }
+
+/*.skills{ justify-content: space-around; }*/
+
+.container-skills{ flex-direction: row; margin-top: 3em; margin-bottom: 2em; justify-content: space-around; }
+
+.container-skill{ flex-direction: column; margin-left:3rem; align-items: center;}
+
+.container-imagen-nombre{ flex-direction: row; align-items: center; justify-content: center; margin-top: 1rem;}
+
+.imagen--nombre { font-size: 2rem; margin-top: 0}
+
+.name-php, .name-bootstrap, .name-github, .name-git{
+
+    margin-left: .6rem;
+
+} 
+
+.sub-text{  margin-top: .3em; margin-bottom: 0 }
+
+.seccion-estudios{
+
+    background: url(../img/img-estudios-4.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.seccion-estudios__items{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 2em;
+}
+
+.seccion-estudios__item{
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title-estudios{ margin-top: 2em; }
+
+.img-seccion-estudios{
+
+    width: 30rem;
+    height: 30rem;
+    border: solid .5rem white;
+
+
+}
+
+.links-estudios, .links-estudios:hover, .links-estudios:visited {
+
+ color: white;
+
+}
+
+.footer{ background-color: black; color: white;}
+
+.footer__redes-sociales{
+
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
+
+.footer__item{
+
+    justify-content:center;
+    align-items:center;
+    transition: .2s;
+    
+
+}
+
+.footer__item:hover{ transform: scale(1.1); }
+.footer__item--link{ padding-top: 1em; }
+.footer--name{ text-align: center; }
+.title-redes{ margin-top: 1em; }
+
+
+@media screen and (min-width: 1500px) {
+
+    .header__imagen, .seccion-informacion, .seccion-estudios{
+
+    background-size: 100%;
+
+}
+    
+}
+
+
