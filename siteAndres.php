@@ -121,7 +121,7 @@
 				          <img src="img/php-30.png" class="img-php">
 				          <div class="imagen--nombre name-php">PHP</div>
 				        </div>
-				        
+
 				    </div>
 			    </div>
 
@@ -182,18 +182,8 @@
 			    	
 			    </div>
 			 </div>
-
-			
-
      </div>
-		   	 
-
-
-
-
-
-
-	</section>
+</section>
 
 	<section class="flexible seccion-estudios" id="estudios">
 		<h2 class="section--title title-estudios">Estudios</h2>

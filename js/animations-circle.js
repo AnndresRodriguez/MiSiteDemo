@@ -2,6 +2,8 @@
 
   if($(window).width()<=320){ $('.circle--size').circleProgress({ size:70 });}
   if($(window).width()<=480){$('.circle--size').circleProgress({ size:80 });}
+  if($(window).width()<=768){$('.circle--size').circleProgress({ size:80 });}
+
   resetCircles();
      
   var $divCircles = $('.seccion-tecnologias');
@@ -16,7 +18,7 @@
 
   $divCircles.waypoint(function(direction){
 
-    if(direction=='down' || direction=="up")
+    if(direction=='down')
     {
        animateSkills();
     }

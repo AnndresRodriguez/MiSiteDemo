@@ -3,8 +3,8 @@
 
 
 .navbar-inverse{ background-color: black; margin-bottom: 0;}
-.collapse { font-size: 1.3em; }
-.navbar-informacion__item:hover{ box-shadow: 0 .15em white; }
+/*.collapse { font-size: 1.3em; }*/
+.navbar-informacion__item:hover{ box-shadow: 0 .15em 0 white; }
 
 .flexible{
 
@@ -19,6 +19,7 @@
 
     height: 100%;
     background: url(../img/imagen-fondo-7.jpg);
+    /*background-repeat: no-repeat;*/
     color: white;
     justify-content: center;
     align-items: center;
@@ -77,6 +78,8 @@
 
 }
 
+.section__article--content{ font-size: 1.5rem; }
+
 .seccion-informacion{ order: 1; }
 .seccion-tecnologias{ order: 3; }
 .seccion-estudios{ order: 2; }
@@ -98,8 +101,6 @@
 
 
 .container-tecnologias { flex-direction: row; justify-content: space-around; margin-bottom: 2rem; }
-
-/*.skills{ justify-content: space-around; }*/
 
 .container-skills{ flex-direction: row; margin-top: 3em; margin-bottom: 2em; justify-content: space-around; }
 
@@ -160,6 +161,7 @@
  color: white;
 
 }
+
 
 .footer{ background-color: black; color: white;}
 
