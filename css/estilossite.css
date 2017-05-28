@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Lora|Merriweather');
 
 
-.navbar-inverse{ background-color: black; margin-bottom: 0;}
-/*.collapse { font-size: 1.3em; }*/
+.navbar-inverse{ background-color: black; margin-bottom: 0; font-size: 1.3em;}
 .navbar-informacion__item:hover{ box-shadow: 0 .15em 0 white; }
 
 .flexible{
@@ -19,13 +18,16 @@
 
     height: 100%;
     background: url(../img/imagen-fondo-7.jpg);
-    /*background-repeat: no-repeat;*/
     color: white;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
 
 }
+
+.header__descripcion{ align-items: center; }
+
+
 
 
 .header__imagen-perfilUser{
@@ -41,10 +43,9 @@
 
 .container-glyphicon{
 
-    width: 8em;
-    height: 4em;
+    width: 30px;
+    height: 50px;
     text-align: center;
-    margin-bottom: 9rem;
 
 }
 
@@ -100,11 +101,11 @@
 }
 
 
-.container-tecnologias { flex-direction: row; justify-content: space-around; margin-bottom: 2rem; }
+.container-tecnologias { flex-direction: row; justify-content: space-around; align-content: space-around; margin-bottom: 2rem; }
 
 .container-skills{ flex-direction: row; margin-top: 3em; margin-bottom: 2em; justify-content: space-around; }
 
-.container-skill{ flex-direction: column; margin-left:3rem; align-items: center;}
+.container-skill{ flex-direction: column; margin-left:3rem; margin-right:3rem; align-items: center;}
 
 .container-imagen-nombre{ flex-direction: row; align-items: center; justify-content: center; margin-top: 1rem;}
 

@@ -1,8 +1,20 @@
   AOS.init();
 
-  if($(window).width()<=320){ $('.circle--size').circleProgress({ size:70 });}
-  if($(window).width()<=480){$('.circle--size').circleProgress({ size:80 });}
-  if($(window).width()<=768){$('.circle--size').circleProgress({ size:80 });}
+  // if($(window).width()<=1440 && $(window).width()>=1026){
+
+  //    $('.circle--size').circleProgress({ size:120 });    
+
+
+  // }
+
+  if($(window).width()<=320)
+  {
+   
+   $('.circle--size').circleProgress({ size:80 });
+  
+  }
+  // if($(window).width()<=480){$('.circle--size').circleProgress({ size:80 });}
+  // if($(window).width()<=768){$('.circle--size').circleProgress({ size:80 });}
 
   resetCircles();
      

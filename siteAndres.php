@@ -40,26 +40,33 @@
 
 	<header class="header">
 		<div class="flexible header__imagen">
+
+			<div class="flexible  header__imagen-perfil">
 			<img src="img/img-perfil-2.jpg" alt="imagenPerfil" class="img-responsive img-circle header__imagen-perfilUser"/>
+			</div>
+			
+		   	<div class="flexible header__descripcion">
+		   		
 		    <h1 class="header__informacion--nombre">Andrés Rodríguez</h1>
-		    <h4 class="header__informacion--descripcion">Ingeniero de Sistemas en formación (UFPS)</h4>
-		   <div class="container-glyphicon"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div> 
+		    <div class="header__informacion--descripcion">Ingeniero de Sistemas en formación (UFPS)</div>
+		    <div class="container-glyphicon"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div> 
+
+		   	</div>
+		    
 		</div>
 	</header>
 	
 	<section class="seccion-informacion" id="who">
 		  <article class="section__article" >
-		    	<h2 class="section--title">¿Quién es?</h2>
-			    <p class ="section__article--content">
-			    	<h3 class="section__article--name">Andrés Joel Carrillo Rodríguez</h3>
-			    	Nací el 6 de diciembre en la ciudad Bogotá donde viví mis primeros seis años, actualmente vivo en Cúcuta en donde terminé la primaria, secundaria y actualmente cursando sexto semestre en la Universidad Francisco de Paula Santander.
-				</p>
+		    	<div class="section--title">¿Quién es?</div>
+		    	<h3 class="section__article--name">Andrés Joel Carrillo Rodríguez</h3>
+			    <p>Nací el 6 de diciembre en la ciudad Bogotá donde viví mis primeros seis años, actualmente vivo en Cúcuta en donde terminé la primaria, secundaria y actualmente cursando sexto semestre en la Universidad Francisco de Paula Santander.</p>
 				<p>Inicié en esto de la programación web desde el 2016 en donde por cuenta propia he aprendido de a poco las diversas tecnologías que se usan y quedé fascinado con ganas de aprender más de este mundo maravilloso.</p>			
 		  </article>			
 	</section>
 
 	<section class="flexible seccion-tecnologias" id="tecnologias">
-		 <h2 class="section--title">Tecnologías</h2>
+		 <div class="section--title">Tecnologías</div>
 			
           <div class=" flexible container-tecnologias">
 
@@ -111,7 +118,8 @@
 				    <div class="flexible container-skill">
 				        <div class="circle-java circle--size circle--size-default"></div>
 				        <div class="flexible container-imagen-nombre">  
-				          <img src="img/java-30.png" class="img-java"><div class="imagen--nombre">Java</div>
+				          <img src="img/java-30.png" class="img-java">
+				          <div class="imagen--nombre">Java</div>
 				        </div>
 				    </div>
 
@@ -186,7 +194,7 @@
 </section>
 
 	<section class="flexible seccion-estudios" id="estudios">
-		<h2 class="section--title title-estudios">Estudios</h2>
+		<div class="section--title title-estudios">Estudios</div>
 		<div class="flexible seccion-estudios__items">
 			<div class="flexible seccion-estudios__item" data-aos="fade-up" data-aos-offset="200">	
 			<img src="img/colegio-gonzalo.jpeg" class="img-responsive img-circle img-seccion-estudios imagen--colegio">
@@ -213,7 +221,7 @@
 
 	<footer class="flexible footer" id="contacto">
 
-		<h2 class="section--title title-redes">Redes Sociales</h2>
+		<div class="section--title title-redes">Redes Sociales</div>
 
 		<div class=" flexible footer__redes-sociales">
 			
