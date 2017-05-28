@@ -17,7 +17,7 @@
 .header__imagen{
 
     height: 100%;
-    background: url(../img/imagen-fondo-7.jpg);
+    background: url(../img-min/imagen-fondo-7-min.jpg);
     color: white;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@
 .seccion-informacion{
 
     height: 40rem;
-    background: url(../img/bogota320.jpg);
+    background: url(../img-min/bogota320-min.jpg);
     color: white;
     text-align: center;
     font-size: 2em;
@@ -121,7 +121,7 @@
 
 .seccion-estudios{
 
-    background: url(../img/img-estudios-4.jpg);
+    background: url(../img-min/img-estudios-4-min.jpg);
     background-repeat: no-repeat;
     color: white;
     font-size: 1.8rem;
