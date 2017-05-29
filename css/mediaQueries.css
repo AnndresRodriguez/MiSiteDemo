@@ -48,23 +48,6 @@
 }
 
 
-@media screen and (max-width : 768px) and (orientation: landscape) {
-
-   .header__imagen-perfilUser{ width: 20rem; height: 20rem;  margin-bottom: 2rem; }
-   .header__informacion--nombre{ font-size: 3.5rem; }
-   .header__informacion--descripcion{ font-size: 1.7rem; }
-
-    .header__imagen{
-
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-    }
-
-
-}
-
 
 
 @media screen and (max-width : 375px){
@@ -114,7 +97,7 @@
 
 }
 
-.header__imagen-perfilUser, .img-seccion-estudios{ width: 15rem; height: 15rem; }
+.header__imagen-perfilUser, .img-seccion-estudios{ width: 16rem; height: 16rem; }
 .section__article--name{ margin-top: 1rem; }
 
 }

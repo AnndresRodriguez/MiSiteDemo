@@ -9,6 +9,23 @@
 
 }
 
+.header__imagen{
+
+    height: 100%; background: url(../img-min/imagen-fondo-7-min.jpg);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.header__imagen-perfilUser{
+
+    width: 30rem;
+    height: 30rem;
+    border: .5em solid white;
+    margin-top: 3rem;
+    
+}
 
 .header__descripcion{ align-items: center; }
 .header__informacion--nombre{ font-size: 4.5rem; }
