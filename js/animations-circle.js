@@ -1,6 +1,5 @@
   AOS.init();
 
-
   resetCircles();
      
   var $divCircles = $('.seccion-tecnologias');
