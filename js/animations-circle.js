@@ -1,51 +1,25 @@
-  AOS.init();
+  $(document).ready(function() {
 
-  resetCircles();
-     
+  AOS.init();
+  resetCircles();   
   var $divCircles = $('.seccion-tecnologias');
   var $divwho =$('.seccion-informacion');
+  var divFooter = $('.footer');
   var dropdownMenu= $('.navbar-collapse');
-
   if($(window).width()<=475){
-
     animateSkills();
-
     $('.navbar-right').on('click', 'li', function(){
-
         dropdownMenu.attr('aria-expanded', 'false');
         dropdownMenu.attr('class', 'navbar-collapse collapse');
-
     });
 
+   
   }else{
-
      $('.container-skills').attr('data-aos', '');
-
- 
-
+      $divCircles.waypoint(function(direction){resetCircles();},{ offset:'80%'});
+      $divCircles.waypoint(function(direction){animateSkills();}, { offset:'15%'});
   }
-
-
-$('.item-tecnologias').click(function(){
-
-   animateSkills();
-});
-
 $('[data-toggle="tooltip"]').tooltip(); 
-
-
-    $divCircles.waypoint(function(direction){
-      resetCircles();
- 
-  },{ offset:'80%'});
-
-
-  $divCircles.waypoint(function(direction){
-       animateSkills();
-  }, { offset:'15%'});
-
-
-
 function animateSkills() {
 
   $('.circle-html5').circleProgress({ value: 0.5,fill:{color:'#F46135'},});
@@ -61,14 +35,15 @@ function animateSkills() {
   $('.circle-github').circleProgress({ value: 0.5, fill:{color:'#000'} });
 }
 
-
-
-
-
-
 function resetCircles() {
    $('.circle--size-default').circleProgress({ value: 0.0});
 }
+
+    
+  });
+
+
+
 
 
 
