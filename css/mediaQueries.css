@@ -30,6 +30,8 @@
 
 @media screen and (max-width : 425px) {
 
+.header__imagen{ height: 100%; background: url(../img-min/header-425.png); }
+.seccion-informacion{ background: url(../img-min/bogota425.jpg);}
 .header__imagen-perfilUser, .img-seccion-estudios{ width: 20rem; height: 20rem; }
 .header__informacion--nombre{ font-size: 3rem; }
 .header__informacion--descripcion{ font-size: 1.6rem; }
@@ -57,8 +59,8 @@
 .header__imagen-perfilUser{ margin-top: 1.5rem; }
 .header__informacion--nombre{ font-size: 3.1rem; }
 .header__informacion--descripcion{ font-size: 1.4rem; }
-.section--title{ margin-top: 0; font-size: 3rem; }
-/*.title-estudios { margin-top: 6rem; }*/
+.title-estudios { margin-top: 6rem; }
+.tecnologias{ margin-top: 6rem; }
 
 .seccion-informacion{
   font-size: 1.35rem;
@@ -83,7 +85,6 @@
 
 .header__informacion--nombre,.header__informacion--descripcion{ text-align: center;}
 .header__informacion--descripcion{ font-size: 1.4rem;  }
-.section--title{ margin-top: 0; font-size: 3rem; }
 .title-estudios { margin-top: 6rem; }
 .container-imagen-nombre{ flex-direction: column;}
 .imagen--nombre{ font-size: 1.4rem; }
